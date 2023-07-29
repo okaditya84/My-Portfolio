@@ -299,7 +299,7 @@
                </article>
 
                <article class="projects__card">
-                  <img src="assets/img/profanity.jpg" alt="Sentiment Analyser" class="projects__img">
+                  <img src="assets/img/profanity.jpg" alt="Profanity Checker" class="projects__img">
                   <div class="projects__modal">
                      <span class="projects__subtitle">
                         NLP and APIs
@@ -314,7 +314,7 @@
                </article>
 
                <article class="projects__card">
-                  <img src="assets/img/med.png" alt="Sentiment Analyser" class="projects__img">
+                  <img src="assets/img/med.png" alt="Medical-Supply-Management" class="projects__img">
                   <div class="projects__modal">
                      <span class="projects__subtitle">
                         Web
@@ -329,7 +329,7 @@
                </article>
 
                <article class="projects__card">
-                  <img src="assets/img/dsa.png" alt="Sentiment Analyser" class="projects__img">
+                  <img src="assets/img/dsa.png" alt="Data Structures" class="projects__img">
                   <div class="projects__modal">
                      <span class="projects__subtitle">
                         Basics of Programming
@@ -342,9 +342,23 @@
                      </a>
                   </div>
                </article>
+               <article class="projects__card">
+                  <img src="assets/img/house.jpg" alt="House Pricing" class="projects__img">
+                  <div class="projects__modal">
+                     <span class="projects__subtitle">
+                        Classical ML
+                     </span>
+                     <h2 class="projects__title">
+                        House Price Prediction
+                     </h2>
+                     <a target="_blank" href="https://github.com/okaditya84/housepricing" class="projects__button">
+                        Check it out <i class="ri-external-link-line"></i>
+                     </a>
+                  </div>
+               </article>
 
                <article class="projects__card">
-                  <img src="assets/img/interchange.jpg" alt="Sentiment Analyser" class="projects__img">
+                  <img src="assets/img/interchange.jpg" alt="Developing" class="projects__img">
                   <div class="projects__modal">
                      <span class="projects__subtitle">
                         Currently developing
@@ -361,7 +375,7 @@
          </section>
 
          <!--==================== CONTACT ====================-->
-         <section class="contact section" id="contact">
+         <!-- <section class="contact section" id="contact">
             <h3 class="section__subtitle">
                Reach <span> me </span>
             </h3>
@@ -381,7 +395,59 @@
                   </button>
                </form>
             </div>
-         </section>
+         </section> -->
+         <section class="contact section" id="contact">
+            <h3 class="section__subtitle">
+                Reach <span> me </span>
+            </h3>
+            <h2 class="section__title">
+                Contact
+            </h2>
+            <div class="contact__container container grid">
+                <form action="" class="contact__form" id="contact-form" onsubmit="return validateForm()">
+                    <div class="contact__group">
+                        <input type="text" name="user_name" required placeholder="Enter Your Name" class="contact__input">
+                        <input type="email" name="user_email" required placeholder="Enter Your E-Mail" class="contact__input">
+                    </div>
+                    <textarea name="user_project" required placeholder="Enter Your Message" class="contact__input"></textarea>
+                    <p class="contact__message" id="contact-message"></p>
+                    <button type="submit" class="button contact__button">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </section>
+        
+        <script>
+            function validateForm() {
+                // Get the email input element
+                var emailInput = document.forms["contact-form"]["user_email"];
+        
+                // Get the value of the email input
+                var email = emailInput.value;
+        
+                // Regular expression for email validation
+                var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        
+                // Check if the email is valid
+                if (!emailPattern.test(email)) {
+                    // If the email is not valid, show an error message
+                    var errorMessage = "Please enter a valid email address.";
+                    var contactMessage = document.getElementById("contact-message");
+                    contactMessage.innerHTML = errorMessage;
+                    contactMessage.style.color = "red";
+                    return false; // Prevent form submission
+                }
+        
+                // If the email is valid, clear any previous error messages (if any)
+                var contactMessage = document.getElementById("contact-message");
+                contactMessage.innerHTML = "";
+        
+                // Allow form submission
+                return true;
+            }
+        </script>
+        
       </main>
 
       <!--==================== FOOTER ====================-->
