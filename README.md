@@ -1,7 +1,7 @@
 
 # Aditya Jethani
 
-This is my personal website where I have to potray my skills about web technologies. 😃
+This is my personal website showcasing the AI systems, research, and full-stack products I've shipped recently. 😃
 
 
 ## Description
@@ -31,12 +31,12 @@ For major changes, please open an issue first to discuss what you would like to 
 
   
 ## 🚀 About Me
-### I'm a Computer Science and Engineering Student
+### I'm a Machine Learning Engineer & CS undergrad
 
-- 👨‍💻 I’m doing my B.Tech from Pandit Deendayal Energy University.
-- 📚 I love AI and ML Development and I am testing my Backend and Software Engg. skills. 😅
-- 💪🏼 I make youtube videos and write technical blogs in my free time.
-- ⚡ Fun fact: I love to solve Rubik's cubes 'cause it's a beautiful mess 🎱.
+- 👨‍💻 Building GPU-batched RAG systems, diagnostic CV pipelines, and FastAPI microservices at CybraneX.
+- 📚 Shipping projects across LangChain, Go, React, and cloud-native data platforms.
+- 💪🏼 I document experiments via workshops, blogs, and YouTube breakdowns.
+- ⚡ Fun fact: I still unwind by solving Rubik's cubes at hackathons 🎱.
 
   
 ## 🔗 Links
