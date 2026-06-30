@@ -1,0 +1,39 @@
+# Aditya Jethani
+
+> AI/ML Engineer with 1.5+ years building and deploying production RAG, agentic, computer-vision and backend systems across legal-tech, healthcare and e-commerce. Computer Engineering graduate from Pandit Deendayal Energy University (CGPA 9.44/10). Based in Surat, Gujarat, India.
+
+## Summary
+
+Aditya Jethani is an AI/ML Engineer at Logicwind. He specialises in retrieval-augmented generation (RAG), agentic systems, LLM fine-tuning (QLoRA), computer vision, and the ML systems work (GPU-batched inference, evaluation, observability) that takes models to production. He measures everything and optimises until latency, accuracy and robustness targets are met.
+
+## Experience
+
+- Machine Learning Engineer, Logicwind (Dec 2025 - Present): Production multi-agent systems (OpenAI Agents SDK, LangFuse), an agentic RAG platform over 360K multilingual documents, an agentic NL-to-SQL voice interface, and applied research on deterministic document parsing (CER 0.0135, token-F1 0.99).
+- Software Engineer, AI/ML, CybraneX (Jun 2025 - Dec 2025): 9x RAG inference speedup (110s to 12.2s), 139.6 tokens/sec sustained, a clinical tongue-analysis computer-vision system (94.2% color and 91.7% coating accuracy), and an Azure-deployed enterprise document-extraction product.
+- Software Engineering Intern, Yanolja Cloud Solutions (Jan 2025 - Jun 2025): Image-to-image translation for multilingual e-commerce (50% accuracy lift), an automated code-review system on Google Cloud, and Go/Python/FFmpeg vision pipelines.
+- Machine Learning Intern, CybraneX (May 2024 - Oct 2024): AI telemarketing system handling 50,000+ daily calls at 89% lead accuracy.
+
+## Selected projects
+
+- TalentScout AI: candidate-screening assistant (LangChain, LangGraph, Llama 3.3 70B). https://aitalentscout.streamlit.app/
+- Prompt Detective: reverse-engineers prompts from AI-generated media (OpenCV, CLIP). https://promptdetective.streamlit.app/
+- Grade Flow: RAG grading platform (FastAPI, LangGraph, pgvector). https://gradeflow.streamlit.app/
+- Tongue Analysis AI: clinical computer-vision diagnostics (PyTorch, OpenCV).
+- Scrollwise: full-stack digital-wellbeing app and Chrome extension (Next.js, Express, MongoDB).
+- Neural ODE for Heart Rate: continuous-time ICU heart-rate modelling on MIMIC-III (PyTorch, torchdiffeq).
+
+## Achievements
+
+- LeetCode Knight (max rating 2071, top 1.75%).
+- Google Solution Challenge 2025: Top 105 of 4,000+ teams.
+- GATE CS 2026: 95.61 percentile.
+- Top-10 finishes at hackathons hosted by IIT Patna and DAIICT; JPMorgan Code for Good finalist.
+
+## Links
+
+- Website: https://adityajethani.vercel.app/
+- LinkedIn: https://www.linkedin.com/in/adityajethani/
+- GitHub: https://github.com/okaditya84
+- Kaggle: https://www.kaggle.com/jethaniaditya
+- Medium: https://medium.com/@adityajethani
+- Email: adityajethani11@gmail.com
