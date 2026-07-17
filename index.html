@@ -6,10 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Aditya Jethani · AI/ML Engineer</title>
   <meta name="description"
-    content="Aditya Jethani is an AI/ML Engineer who ships production RAG, agentic, computer-vision and backend systems. 1.5+ years building and deploying LLM and data systems across legal-tech, healthcare and e-commerce." />
+    content="Aditya Jethani is an AI/ML Engineer who ships production RAG, agentic, computer-vision and backend systems. First inventor on a published Indian patent for a multimodal healthcare AI system, with peer-reviewed research in forecasting and NLP. 1.5+ years building and deploying LLM and data systems across legal-tech, healthcare and e-commerce." />
   <meta name="author" content="Aditya Jethani" />
   <meta name="robots" content="index, follow, max-image-preview:large" />
-  <meta name="keywords" content="Aditya Jethani, AI Engineer, Machine Learning Engineer, RAG, LLM, agentic AI, computer vision, MLOps, Surat, India, Logicwind" />
+  <meta name="keywords" content="Aditya Jethani, AI Engineer, Machine Learning Engineer, RAG, LLM, agentic AI, computer vision, MLOps, multimodal AI, healthcare AI, patent, multimodal embeddings, Surat, India, Logicwind" />
   <meta name="theme-color" content="#0b0c0e" />
   <link rel="canonical" href="https://adityajethani.vercel.app/" />
 
@@ -47,13 +47,14 @@
     "@type": "Person",
     "name": "Aditya Jethani",
     "jobTitle": "AI/ML Engineer",
-    "description": "AI/ML Engineer with 1.5+ years building and deploying production RAG, agentic, computer-vision and backend systems across legal-tech, healthcare and e-commerce.",
+    "description": "AI/ML Engineer with 1.5+ years building and deploying production RAG, agentic, computer-vision and backend systems across legal-tech, healthcare and e-commerce. First inventor on a published Indian patent for a multimodal healthcare AI system.",
     "image": "https://adityajethani.vercel.app/assets/img/og-card.jpg",
     "email": "adityajethani11@gmail.com",
     "address": { "@type": "PostalAddress", "addressLocality": "Surat", "addressRegion": "Gujarat", "addressCountry": "India" },
     "alumniOf": { "@type": "CollegeOrUniversity", "name": "Pandit Deendayal Energy University" },
     "worksFor": { "@type": "Organization", "name": "Logicwind" },
-    "knowsAbout": ["Machine Learning", "Large Language Models", "Retrieval-Augmented Generation", "Agentic AI", "Computer Vision", "Backend Engineering", "MLOps", "Python", "Go"],
+    "award": "Published Indian Patent (Application No. 202521086225) — AI-Powered Multimodal Healthcare System for Elderly Care",
+    "knowsAbout": ["Machine Learning", "Large Language Models", "Retrieval-Augmented Generation", "Agentic AI", "Multimodal AI", "Multimodal Embeddings", "Computer Vision", "Vision Transformers", "Healthcare AI", "Backend Engineering", "MLOps", "Python", "Go"],
     "url": "https://adityajethani.vercel.app/",
     "sameAs": [
       "https://www.linkedin.com/in/adityajethani/",
@@ -108,6 +109,7 @@
     <div class="wrap relative">
       <div class="hero-grid">
         <div>
+          <a class="hero-badge mono reveal" data-d="1" href="#research"><span class="dot"></span> Published patent · Multimodal healthcare AI</a>
           <h1 class="reveal" data-d="1">I ship <span class="grad">intelligent</span><br>systems to production.</h1>
           <p class="hero-sub reveal" data-d="2">
             I am <b>Aditya Jethani</b>, an AI/ML engineer with <b>1.5+ years</b> turning
@@ -140,6 +142,7 @@
   <!-- ============ METRIC MARQUEE ============ -->
   <div class="metricbar" aria-label="Selected results">
     <div class="track">
+      <div class="cell"><span class="num"><em>Patent</em></span><span class="lbl">multimodal healthcare AI · published</span></div>
       <div class="cell"><span class="num"><em>9×</em></span><span class="lbl">RAG inference speedup</span></div>
       <div class="cell"><span class="num">139.6 <em>tok/s</em></span><span class="lbl">sustained generation</span></div>
       <div class="cell"><span class="num"><em>360K</em></span><span class="lbl">docs in agentic RAG</span></div>
@@ -147,6 +150,7 @@
       <div class="cell"><span class="num"><em>0.99</em></span><span class="lbl">token-F1, doc parsing</span></div>
       <div class="cell"><span class="num"><em>2071</em></span><span class="lbl">LeetCode Knight rating</span></div>
       <!-- duplicate for seamless loop -->
+      <div class="cell"><span class="num"><em>Patent</em></span><span class="lbl">multimodal healthcare AI · published</span></div>
       <div class="cell"><span class="num"><em>9×</em></span><span class="lbl">RAG inference speedup</span></div>
       <div class="cell"><span class="num">139.6 <em>tok/s</em></span><span class="lbl">sustained generation</span></div>
       <div class="cell"><span class="num"><em>360K</em></span><span class="lbl">docs in agentic RAG</span></div>
@@ -409,32 +413,48 @@
   <section class="section" id="research">
     <div class="wrap">
       <div class="section-head reveal">
-        <span class="kicker">Research & writing</span>
-        <h2>Papers and applied research.</h2>
-        <p>I am drawn to evaluation, faithfulness and failure analysis of LLMs in retrieval-augmented and multilingual settings.</p>
+        <span class="kicker">Research & Publications</span>
+        <h2>A patent, papers and applied research.</h2>
+        <p>From a published patent on multimodal healthcare AI to peer-reviewed forecasting and low-resource NLP, my work centres on evaluation, faithfulness and systems that hold up.</p>
       </div>
 
       <div class="research-grid">
+        <!-- Patent (featured) -->
+        <article class="paper featured reveal">
+          <div>
+            <span class="badge">Patent · Published</span>
+            <h3>AI-Powered Multimodal Healthcare System for Elderly Care</h3>
+            <p>A multimodal healthcare assistant for elderly users. The core novelty is a <b>unified multimodal vector store</b> that fuses text, voice and image into a single embedding space through an <b>attention-based feature-alignment layer with modality-specific weights</b>, enabling cross-modal retrieval-augmented generation while minimising LLM input cost. A Vision Transformer classifies medical scans, prescriptions and diagnostic reports; speech-to-text, text-to-speech and OCR handle multimodal input; and an adaptive memory personalises advice, medication reminders and lifestyle guidance over time, in English and Hindi.</p>
+            <p class="paper-meta">Indian Patent Application No. <b>202521086225</b> &nbsp;·&nbsp; Filed 11 Sep 2025 &nbsp;·&nbsp; Published 3 Jul 2026 &nbsp;·&nbsp; <b>First inventor</b>, with mentor Dr. Debabrata Swain &nbsp;·&nbsp; Pandit Deendayal Energy University</p>
+          </div>
+          <span class="status">Published</span>
+        </article>
+
+        <!-- Solar forecasting -->
+        <article class="paper reveal" data-d="1">
+          <div>
+            <h3>Advanced Forecasting of Solar Power Generation using Bi-LSTM with Fourier Features</h3>
+            <p>A Bi-LSTM with 25 Fourier term-pairs and geo-temporal features for multi-horizon AC-power forecasting across two climatically distinct Indian PV plants, reaching <b>R² = 0.861</b> and <b>RMSE = 128.09 kW</b>. Adds an adversarial degradation model (soiling, thermal and sensor faults) that quantifies yield loss and generates maintenance recommendations. First author.</p>
+          </div>
+          <span class="status">Under review · IEEE Transactions</span>
+        </article>
+
+        <!-- Hinglish hate-speech -->
+        <article class="paper reveal" data-d="2">
+          <div>
+            <h3>Efficient Labelling of Hinglish Datasets for Hate-Speech Classification</h3>
+            <p>A dual-layered labelling method for low-resource code-mixed Hinglish: an ensemble-consensus pipeline (Twitter-RoBERTa, BETO/mBERT, VADER) with iterative refinement and human feedback bootstraps a high-quality 18K-sentence dataset, reaching <b>86%</b> accuracy on hate-speech and sentiment classification.</p>
+          </div>
+          <span class="status">Academic research</span>
+        </article>
+
+        <!-- Deterministic doc parsing -->
         <article class="paper reveal">
           <div>
             <h3>Deterministic Document Parsing that Outperforms VLM Parsers</h3>
             <p>A zero-ML, failure-mode-driven PDF parser reaching CER 0.0135 and token-F1 0.99 on native PDFs, with a self-improving optimizer that lowered character-error rate from 17.07% to 8.29%. Applied research at current work.</p>
           </div>
           <span class="status">In preparation</span>
-        </article>
-        <article class="paper reveal" data-d="1">
-          <div>
-            <h3>Advanced Forecasting of Solar Power Generation using Bi-LSTM with Fourier Features</h3>
-            <p>Bi-LSTM with Fourier and geo-temporal features for daily AC power forecasting, achieving R² = 0.86 and RMSE = 128.09 kW.</p>
-          </div>
-          <span class="status">Under review</span>
-        </article>
-        <article class="paper reveal" data-d="2">
-          <div>
-            <h3>Efficient Labelling of Hinglish Datasets for Hate-Speech Classification</h3>
-            <p>A consensus labeling pipeline (RoBERTa, mBERT, VADER) with active learning and RLHF feedback for low-resource code-mixed text, reaching 86% test accuracy.</p>
-          </div>
-          <span class="status">Manuscript in prep</span>
         </article>
       </div>
     </div>
