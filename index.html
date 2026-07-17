@@ -76,9 +76,10 @@
     <nav class="nav-links" aria-label="Primary">
       <a href="#about"><span class="idx">01</span>About</a>
       <a href="#experience"><span class="idx">02</span>Experience</a>
-      <a href="#work"><span class="idx">03</span>Work</a>
-      <a href="#research"><span class="idx">04</span>Research</a>
-      <a href="#writing"><span class="idx">05</span>Writing</a>
+      <a href="#timeline"><span class="idx">03</span>Timeline</a>
+      <a href="#work"><span class="idx">04</span>Work</a>
+      <a href="#research"><span class="idx">05</span>Research</a>
+      <a href="#writing"><span class="idx">06</span>Writing</a>
       <a class="nav-cta" href="/resume">Resume ↓</a>
     </nav>
     <div class="nav-tools">
@@ -210,50 +211,28 @@
       <div class="section-head reveal">
         <span class="kicker">Experience</span>
         <h2>Where I have shipped.</h2>
-        <p>Four roles across three companies, each ending in something deployed or measured.</p>
+        <p>Three roles across three companies, each ending in something deployed or measured.</p>
       </div>
 
       <div class="timeline">
         <!-- Logicwind -->
         <article class="xp reveal">
           <div class="xp-meta">
-            <div class="xp-when">Dec 2025 — Present</div>
+            <div class="xp-when">Jun 2025 — Present</div>
             <div class="xp-where">Surat, India</div>
             <div class="xp-badge">Full-time</div>
           </div>
           <div>
             <h3 class="xp-role">Machine Learning Engineer · <span class="xp-company">Logicwind</span></h3>
             <ul>
-              <li>Built a production <b>multi-agent system</b> on the OpenAI Agents SDK with LangFuse for observability, tracing and prompt versioning across concurrent workflows, cutting manual prompt-tuning time <b>60%</b> and reaching <b>90%</b> response satisfaction.</li>
+              <li>Shipped production <b>multi-agent systems</b> that answer questions over live enterprise data (ERP, Tally, CRM, HR) by planning tool and SQL calls from deep schema grounding, across the OpenAI Agents SDK, Google ADK, Mastra AI and Vercel AI SDK, cutting client delivery time <b>70%</b> and reaching <b>90%</b> response satisfaction.</li>
+              <li>Built a <b>governed internal AI platform</b> (per-user MCP OAuth isolation, budgeted virtual keys, cost attribution) that caught and fixed a catastrophic cross-user data leak, replacing shadow AI with one auditable, cost-capped entry point.</li>
               <li>Architected an <b>agentic RAG platform over 360K multilingual documents</b> (45% scanned, Surya OCR), reaching <b>4.3× throughput</b> via async batching and Qwen3 embeddings; benchmarked 16+ chunking strategies and 6+ embedding models.</li>
-              <li>Engineered an <b>agentic NL-to-SQL voice interface</b> that returns governed SQL plus auto-generated chart dashboards in <b>under 2s</b>, giving non-technical stakeholders self-serve analytics.</li>
-              <li>Drove applied research on <b>deterministic document parsing</b> that beat VLM-based parsers on native PDFs (<b>CER 0.0135, token-F1 0.99</b>); manuscript in preparation.</li>
-              <li>Shipped production AI across OpenAI Agents SDK, Google ADK, Mastra AI and Vercel AI SDK with Docker deployment, cutting client agent-delivery time <b>70%</b>.</li>
+              <li>Engineered an <b>agentic NL-to-SQL voice interface</b> that returns governed SQL plus auto-generated chart dashboards in <b>under 2s</b> for non-technical stakeholders.</li>
+              <li>Drove applied research on <b>deterministic document parsing</b> (CER 0.0135, token-F1 0.99) and a multimodal <b>image-evaluation framework</b> pairing FID and CLIP-score with a custom relevance pipeline.</li>
             </ul>
             <div class="xp-tags">
-              <span class="tag">OpenAI Agents SDK</span><span class="tag">Google ADK</span><span class="tag">LangFuse</span><span class="tag">Qwen3</span><span class="tag">RAG</span><span class="tag">FastAPI</span><span class="tag">Docker</span>
-            </div>
-          </div>
-        </article>
-
-        <!-- CybraneX full-time -->
-        <article class="xp reveal">
-          <div class="xp-meta">
-            <div class="xp-when">Jun 2025 — Dec 2025</div>
-            <div class="xp-where">Delhi, India</div>
-            <div class="xp-badge">Full-time</div>
-          </div>
-          <div>
-            <h3 class="xp-role">Software Engineer, AI/ML · <span class="xp-company">CybraneX</span></h3>
-            <ul>
-              <li>Engineered a high-throughput <b>RAG inference pipeline</b> for QLoRA fine-tuned LLMs, achieving a <b>9× speedup</b> (latency 110s → 12.2s) by replacing serialized per-thread generation with GPU-batched inference.</li>
-              <li>Sustained <b>139.6 tokens/sec</b> and 0.82 queries/sec in production through FP16 quantization, KV-cache, FlashAttention-2 and context truncation.</li>
-              <li>Built a clinical <b>tongue-analysis computer-vision system</b> (ResNet18 + custom coating model, OpenCV, Fourier and Gabor analysis) reaching <b>94.2% color and 91.7% coating accuracy</b>, served via a REST API with an interactive UI for clinical workflows.</li>
-              <li>Delivered an enterprise <b>document-extraction product deployed on Azure</b>, combining Cloud Vision OCR, tamper detection and LLM classification across 14+ document types with a CI/CD pipeline.</li>
-              <li>Added model-safety and evaluation tooling that surfaced <b>27% more quality violations</b> via statistical drift detection and structured observability.</li>
-            </ul>
-            <div class="xp-tags">
-              <span class="tag">PyTorch</span><span class="tag">QLoRA</span><span class="tag">vLLM</span><span class="tag">OpenCV</span><span class="tag">FastAPI</span><span class="tag">Azure</span><span class="tag">CI/CD</span>
+              <span class="tag">OpenAI Agents SDK</span><span class="tag">Google ADK</span><span class="tag">MCP</span><span class="tag">LangFuse</span><span class="tag">RAG</span><span class="tag">FastAPI</span><span class="tag">Docker</span>
             </div>
           </div>
         </article>
@@ -278,26 +257,97 @@
           </div>
         </article>
 
-        <!-- CybraneX intern -->
+        <!-- CybraneX -->
         <article class="xp reveal">
           <div class="xp-meta">
-            <div class="xp-when">May 2024 — Oct 2024</div>
+            <div class="xp-when">Mar 2024 — Oct 2024</div>
             <div class="xp-where">Delhi, India</div>
             <div class="xp-badge">Internship</div>
           </div>
           <div>
-            <h3 class="xp-role">Machine Learning Intern · <span class="xp-company">CybraneX</span></h3>
+            <h3 class="xp-role">AI/ML Intern · <span class="xp-company">CybraneX</span></h3>
             <ul>
-              <li>Engineered an AI telemarketing system processing <b>50,000+ daily calls</b> with custom LLMs, reaching <b>89% accuracy</b> in legitimate-lead identification under sub-200ms latency.</li>
+              <li>Engineered a high-throughput <b>RAG inference pipeline</b> for QLoRA fine-tuned LLMs, achieving a <b>9× speedup</b> (latency 110s → 12.2s, 139.6 tokens/sec sustained) via GPU-batched inference, FP16 quantization, KV-cache and FlashAttention-2.</li>
+              <li>Built a clinical <b>tongue-analysis computer-vision system</b> (ResNet18 + custom coating model, OpenCV, Fourier and Gabor analysis) reaching <b>94.2% color and 91.7% coating accuracy</b>, served via a REST API for clinical workflows.</li>
+              <li>Delivered an enterprise <b>document-extraction product deployed on Azure</b>, combining Cloud Vision OCR, tamper detection and LLM classification across 14+ document types with a CI/CD pipeline.</li>
+              <li>Engineered an <b>AI telemarketing system</b> processing <b>50,000+ daily calls</b> with custom LLMs at <b>89% accuracy</b> in legitimate-lead identification under sub-200ms latency.</li>
               <li>Built a real-time analytics dashboard blending purchase history and geolocation signals, raising a client's inventory turnover <b>22%</b>.</li>
-              <li>Accelerated healthcare document extraction from <b>5s to 0.5s</b> per document through batch optimization and pipeline consolidation.</li>
             </ul>
             <div class="xp-tags">
-              <span class="tag">LLMs</span><span class="tag">Python</span><span class="tag">Analytics</span><span class="tag">ETL</span>
+              <span class="tag">PyTorch</span><span class="tag">QLoRA</span><span class="tag">vLLM</span><span class="tag">OpenCV</span><span class="tag">Azure</span><span class="tag">CI/CD</span>
             </div>
           </div>
         </article>
       </div>
+    </div>
+  </section>
+
+  <hr class="divider" />
+
+  <!-- ============ TIMELINE / JOURNEY ============ -->
+  <section class="section" id="timeline">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="kicker">Timeline</span>
+        <h2>The journey, newest first.</h2>
+        <p>A running log of milestones, wins and what I have been up to lately.</p>
+      </div>
+      <ol class="journey">
+        <li class="jn reveal">
+          <div class="jn-when mono">Jul 2026</div>
+          <div class="jn-body">
+            <h3>First patent published</h3>
+            <p><i>AI-Powered Multimodal Healthcare System for Elderly Care</i> (Indian Patent App. No. 202521086225), as first inventor. <a href="#research">Read more →</a></p>
+          </div>
+        </li>
+        <li class="jn reveal">
+          <div class="jn-when mono">2026</div>
+          <div class="jn-body">
+            <h3>2nd place · Claude Impact Lab 2026, Mumbai</h3>
+            <p>Built Setu, an offline-first, voice-first reunification platform for the Kumbh Mela, over the hackathon. <a href="https://setu-kumbh.vercel.app/" target="_blank" rel="noopener">See it ↗</a></p>
+          </div>
+        </li>
+        <li class="jn reveal">
+          <div class="jn-when mono">2026</div>
+          <div class="jn-body">
+            <h3>Top 100 · Meta PyTorch (OpenEnv) Hackathon, Bengaluru</h3>
+            <p>Built adversarial trust-and-safety tooling with GRPO training on Meta's OpenEnv.</p>
+          </div>
+        </li>
+        <li class="jn reveal">
+          <div class="jn-when mono">2025–26</div>
+          <div class="jn-body">
+            <h3>Winner · internal hackathon at Logicwind</h3>
+            <p>First place in a company-wide build sprint.</p>
+          </div>
+        </li>
+        <li class="jn reveal">
+          <div class="jn-when mono">2026</div>
+          <div class="jn-body">
+            <h3>GATE CS 2026 · 95.61 percentile</h3>
+          </div>
+        </li>
+        <li class="jn reveal">
+          <div class="jn-when mono">2025</div>
+          <div class="jn-body">
+            <h3>Top 105 · Google Solution Challenge 2025</h3>
+            <p>Among 4,000+ international teams worldwide.</p>
+          </div>
+        </li>
+        <li class="jn reveal">
+          <div class="jn-when mono">2025</div>
+          <div class="jn-body">
+            <h3>Top 10 · ByteVerse 2025, IIT Patna</h3>
+          </div>
+        </li>
+        <li class="jn reveal">
+          <div class="jn-when mono">2025</div>
+          <div class="jn-body">
+            <h3>B.Tech, Pandit Deendayal Energy University</h3>
+            <p>Computer Engineering, CGPA 9.44/10.</p>
+          </div>
+        </li>
+      </ol>
     </div>
   </section>
 
@@ -662,6 +712,27 @@
   <a class="icon-btn totop" href="#top" aria-label="Back to top">
     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 19V5M6 11l6-6 6 6"/></svg>
   </a>
+
+  <!-- ============ NEWS PILL (edit np-text, href and data-news to change) ============ -->
+  <a class="newspill" id="newspill" href="#research" data-news="patent-2026-07">
+    <span class="np-dot"></span>
+    <span class="np-text">My patent just got published — <b>Read more</b></span>
+    <button class="np-close" type="button" aria-label="Dismiss">&times;</button>
+  </a>
+  <script>
+    (function () {
+      var p = document.getElementById('newspill');
+      if (!p) return;
+      var key = 'np-dismissed';
+      try { if (localStorage.getItem(key) === p.dataset.news) return; } catch (e) {}
+      setTimeout(function () { p.classList.add('show'); }, 1200);
+      p.querySelector('.np-close').addEventListener('click', function (e) {
+        e.preventDefault(); e.stopPropagation();
+        p.classList.remove('show');
+        try { localStorage.setItem(key, p.dataset.news); } catch (e) {}
+      });
+    })();
+  </script>
 
   <script src="assets/js/site.js"></script>
 

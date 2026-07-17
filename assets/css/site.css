@@ -462,3 +462,50 @@ h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 600; line-height
   color: var(--text-faint); margin-top: 15px; line-height: 1.7;
 }
 .paper-meta b { color: var(--text-dim); font-weight: 600; }
+
+/* ---------- News pill (dismissible) ---------- */
+.newspill {
+  position: fixed; left: 50%; bottom: 22px; z-index: 60;
+  transform: translate(-50%, 160%); opacity: 0;
+  display: inline-flex; align-items: center; gap: 11px;
+  max-width: calc(100vw - 32px);
+  padding: 10px 12px 10px 16px; border-radius: 999px;
+  background: var(--bg-2); border: 1px solid var(--line-2);
+  box-shadow: 0 12px 34px rgba(0,0,0,.45);
+  color: var(--text); font-size: 14px; text-decoration: none;
+  transition: transform .55s cubic-bezier(.2,.8,.2,1), opacity .4s, border-color .25s;
+}
+.newspill.show { transform: translate(-50%, 0); opacity: 1; }
+.newspill:hover { border-color: var(--accent); }
+.newspill .np-dot {
+  width: 8px; height: 8px; border-radius: 50%; background: var(--accent);
+  box-shadow: 0 0 0 4px var(--accent-soft); flex: none;
+  animation: npPulse 2.4s ease-in-out infinite;
+}
+@keyframes npPulse { 0%,100% { box-shadow: 0 0 0 3px var(--accent-soft); } 50% { box-shadow: 0 0 0 6px transparent; } }
+.newspill .np-text { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.newspill .np-text b { color: var(--accent); font-weight: 600; }
+.newspill .np-close {
+  flex: none; width: 22px; height: 22px; border-radius: 50%; border: none;
+  background: transparent; color: var(--text-faint); font-size: 18px; line-height: 1;
+  cursor: pointer; transition: color .2s, background .2s;
+}
+.newspill .np-close:hover { color: var(--text); background: var(--bg-3); }
+
+/* ---------- Timeline / Journey ---------- */
+.journey { list-style: none; position: relative; margin-top: 8px; padding-left: 26px; }
+.journey::before { content: ""; position: absolute; left: 5px; top: 10px; bottom: 10px; width: 2px; background: var(--line); }
+.jn { position: relative; display: grid; grid-template-columns: 118px 1fr; gap: 22px; padding: 15px 0; }
+.jn::before {
+  content: ""; position: absolute; left: -26px; top: 21px;
+  width: 12px; height: 12px; border-radius: 50%;
+  background: var(--bg); border: 2px solid var(--accent);
+}
+.jn-when { color: var(--text-faint); font-size: 13px; padding-top: 2px; }
+.jn-body h3 { font-size: 18px; line-height: 1.3; }
+.jn-body p { color: var(--text-dim); font-size: 14.5px; margin-top: 6px; line-height: 1.5; }
+.jn-body a { color: var(--accent); }
+@media (max-width: 640px) {
+  .jn { grid-template-columns: 1fr; gap: 4px; }
+  .newspill { font-size: 13px; }
+}
