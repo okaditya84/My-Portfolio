@@ -26,7 +26,6 @@ Aditya Jethani is an AI/ML Engineer at Logicwind. He specialises in retrieval-au
 
 - LeetCode Knight (max rating 2071, top 1.75%).
 - Google Solution Challenge 2025: Top 105 of 4,000+ teams.
-- GATE CS 2026: 95.61 percentile.
 - Top-10 finishes at hackathons hosted by IIT Patna and DAIICT; JPMorgan Code for Good finalist.
 
 ## Links
