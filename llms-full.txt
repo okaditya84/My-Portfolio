@@ -1,0 +1,219 @@
+# Aditya Jethani — Complete Site Content
+
+> This file contains the full text content of https://adityajethani.vercel.app/ in a single document, for language models and AI answer engines. Last updated: July 2026.
+
+---
+
+## Who is Aditya Jethani?
+
+Aditya Jethani is a Machine Learning Engineer based in Ahmedabad, Gujarat, India. He builds production AI systems, specialising in agentic AI, retrieval-augmented generation (RAG), LLM fine-tuning, and the ML infrastructure that takes models from prototype to production.
+
+He is the first inventor on a published Indian patent for a multimodal healthcare AI system (Application No. 202521086225), a Codeforces Master placing in the top 2% of rated competitive programmers worldwide, and a Computer Engineering graduate of Pandit Deendayal Energy University with a CGPA of 9.44 out of 10.
+
+He works end to end: data pipelines, model fine-tuning, FastAPI services, agent orchestration, and the evaluation tooling that proves a system behaves correctly. His approach is measurement-first: break an ambiguous problem into experiments, automate the evaluation, and iterate until the numbers hold.
+
+---
+
+## Contact and profiles
+
+- Email: adityajethani11@gmail.com
+- Website: https://adityajethani.vercel.app/
+- LinkedIn: https://www.linkedin.com/in/adityajethani/
+- GitHub: https://github.com/okaditya84
+- Codeforces: https://codeforces.com/profile/aditya2005
+- LeetCode: https://leetcode.com/u/adityajethani/
+- Kaggle: https://www.kaggle.com/jethaniaditya
+- Medium: https://medium.com/@adityajethani
+- Location: Ahmedabad, Gujarat, India
+
+---
+
+## Education
+
+Pandit Deendayal Energy University (PDEU), Gandhinagar, India.
+Bachelor of Technology in Computer Engineering, August 2021 to May 2025.
+CGPA: 9.44 out of 10.
+
+Coursework: Data Structures and Algorithms, Operating Systems, Database Management Systems, Computer Networks, Machine Learning, Natural Language Processing, Probability and Statistics, Big Data Analytics, Object-Oriented Programming, Linear Algebra.
+
+GATE Computer Science 2026: 95.61 percentile.
+
+---
+
+## Professional experience
+
+### Machine Learning Engineer, Logicwind (June 2025 to present), Surat, India
+
+- Built 7 production AI agents that answer voice and text questions over live enterprise systems including ERPNext, Tally, CRM and regulatory data, planning their own tool and SQL calls from deep schema grounding rather than phrase matching. Validated to exact accuracy against ground truth, including reconciling 69.3 crore rupees in credits across 9,205 vouchers with zero error. Shipped across the OpenAI Agents SDK, Google Agent Development Kit (ADK), Mastra AI and Vercel AI SDK. Cut client delivery time by 70% and reached 90% response satisfaction.
+- Built the company's governed internal AI platform to stop company data leaking into personal AI accounts. It provides per-user budgeted API keys, cost attribution, and per-user Model Context Protocol (MCP) OAuth isolation, and it caught a cross-user calendar data leak before it reached production. Extended into a single-tenant governed AI appliance where every agent action runs an identity, grants, policy-check and data-trust spine.
+- Architected an agentic RAG platform over 360,000 multilingual documents, of which 45% were scanned images processed with Surya OCR, reaching 4.3x throughput through asynchronous batching and Qwen3 embeddings. Benchmarked 16+ chunking strategies and 6+ embedding models.
+- Engineered an agentic natural-language-to-SQL interface that returns governed SQL plus auto-generated chart dashboards in under 2 seconds, giving non-technical stakeholders self-serve analytics.
+- Built a deterministic PDF parser that beats PyMuPDF on 23 of 34 metrics across a custom 1,386-document financial benchmark. Manuscript in preparation.
+- Built a generated-image evaluation framework pairing Fréchet Inception Distance (FID) and CLIP-score with a custom relevance-scoring pipeline.
+- Built an Edge-AI employee training platform with LLM-personalised learning paths and a proctored test environment using eye tracking, face detection and ambient-audio monitoring.
+- Built a real-time KYC pipeline fusing face liveness detection, programmatic OCR and voice biometrics into a single low-latency on-device identity flow.
+
+### Software Engineering Intern, Yanolja (January 2025 to June 2025), Surat, India
+
+- Architected an image-to-image translation system for multilingual e-commerce that lifted accuracy 50% over the CycleGAN baseline, using ensemble OCR for text and attribute detection with LaMa in-painting, while preserving native language typography and visual aesthetics. Validated across 10+ evaluation metrics.
+- Revamped an internal LLM-based code-analysis workflow, privately hosted on Google Cloud for GitHub pull requests, mining commit histories and pull-request diffs to mitigate 27% of recurring security vulnerabilities through automated RAG-based pattern detection.
+- Engineered scalable computer-vision pipelines using Go, Python and FFmpeg, handling large image datasets and reducing average processing time by 1.3x.
+
+### Machine Learning Intern, CybraneX (March 2024 to October 2024), Delhi, India
+
+- Engineered a high-throughput RAG inference pipeline for QLoRA fine-tuned LLMs, achieving a 9x speedup from 110 seconds to 12.2 seconds by replacing serialized per-thread generation with GPU-batched inference. Sustained 139.6 tokens per second and 0.82 queries per second in production through FP16 quantization, KV-caching, FlashAttention-2 and context truncation.
+- Built a clinical tongue-analysis computer-vision system reaching 94.2% colour accuracy and 91.7% coating accuracy. Engineered the full pipeline in OpenCV and scikit-image using segmentation, RGB and HSV ratio analysis, Local Binary Pattern texture mapping, Gabor filtering, Canny edge detection and 2D Fourier transforms to measure coating thickness and crack density. Shipped a REST API and interactive UI for real-time image upload, processing and report generation.
+- Built an AI telemarketing system on custom LLMs handling 50,000+ calls a day at 89% accuracy in legitimate-lead identification, under sub-200 millisecond latency.
+- Delivered an enterprise document-extraction product deployed on Azure, combining Cloud Vision OCR, tamper detection and LLM classification across 14+ document types with a CI/CD pipeline. Accelerated per-document processing from 5 seconds to 0.5 seconds.
+- Built a real-time analytics dashboard blending purchase history and geolocation signals, raising a client's inventory turnover by 22%.
+
+---
+
+## Research, patents and publications
+
+### Patent (published): AI-Powered Multimodal Healthcare System for Elderly Care
+
+Indian Patent Application No. 202521086225. Filed 11 September 2025, published 3 July 2026. Aditya Jethani is the first inventor, with mentor Dr. Debabrata Swain. Applicant: Pandit Deendayal Energy University.
+
+The invention is a multimodal healthcare assistant for elderly users. Its core novelty is a unified multimodal vector store that fuses text, image and audio data into a single embedding space through an attention-based feature-alignment layer with modality-specific weights, enabling cross-modal retrieval-augmented generation while minimising large-language-model input costs.
+
+The system includes a Vision Transformer that classifies medical scans, prescriptions and diagnostic reports; speech-to-text, text-to-speech and optical character recognition for multimodal input; a context-aware mechanism that analyses conversation history; and an adaptive memory system that refines user data through iterative learning to deliver increasingly personalised medical guidance, medication reminders and lifestyle recommendations. It supports multiple languages including English and Hindi.
+
+### Under review, IEEE Transactions: Advanced Forecasting of Solar Power Generation using Bi-LSTM with Fourier Features
+
+First author. A bidirectional LSTM using 25 Fourier sine and cosine term pairs alongside geo-temporal features for multi-horizon AC power forecasting across two climatically distinct Indian photovoltaic plants. Achieves an R-squared of 0.861 and RMSE of 128.09 kW at the one-hour horizon. Includes an adversarial degradation model that simulates soiling, thermal faults and sensor bias to quantify yield loss and generate maintenance recommendations. Validated with 5-fold TimeSeriesSplit cross-validation and Optuna hyperparameter optimisation.
+
+### In preparation: Deterministic Document Parsing that Outperforms VLM Parsers
+
+A zero-machine-learning, failure-mode-driven PDF parser reaching a character error rate of 0.0135 and token-F1 of 0.99 on native PDFs. Beats PyMuPDF on 23 of 34 metrics across a custom 1,386-document financial benchmark under zero-regression gating, validated out of domain on TAT-DQA (2,758 documents), DocLayNet (25,699 documents) and RealDocBench (581 documents).
+
+### Academic research: Efficient Labelling of Hinglish Datasets for Hate-Speech Classification
+
+A dual-layered labelling method for low-resource code-mixed Hinglish. An ensemble-consensus pipeline using Twitter-RoBERTa, BETO/mBERT and VADER, combined with iterative refinement and human feedback, bootstraps a high-quality 18,000-sentence dataset, reaching 86% accuracy on hate-speech and sentiment classification.
+
+---
+
+## Projects
+
+### Setu: Kumbh Lost and Found Network
+
+Live at https://setu-kumbh.vercel.app/. An offline-first, voice-first platform that reunites families separated at the Kumbh Mela. Built with Next.js, Flutter and FastAPI. Uses Sarvam Saarika for speech-to-text and Bulbul for text-to-speech, supporting one-tap voice intake across 23 Indian languages for users who cannot read or type. The matching engine reached Recall@1 of 87% and Recall@5 of 97% on a reproducible evaluation, with hashed-PII privacy design. Built at Claude Impact Lab 2026, where it placed Top 7 in India.
+
+### TalentScout AI
+
+Live at https://aitalentscout.streamlit.app/. A production candidate-screening assistant that parses resumes, generates role-specific questions and scores answers with running confidence. Built with Python, LangChain, LangGraph, Llama 3.3 70B and Streamlit. Reached 85% validation accuracy and cut hiring evaluation time by 60%.
+
+### Prompt Detective
+
+Live at https://promptdetective.streamlit.app/. A multimodal pipeline that reverse-engineers the prompt behind an AI-generated image or video using computer-vision signal extraction and semantic retrieval. Built with OpenCV, CLIP, Sentence-Transformers and pgvector. Reached 85% Top-K accuracy with under 5 seconds processing for a one-minute video.
+
+### Grade Flow
+
+Live at https://gradeflow.streamlit.app/. A RAG teacher's assistant that automates grading with plagiarism detection, automatic question-paper generation and a timed test environment. Built with FastAPI, LangGraph, pgvector, FAISS and Gemma-2. Automated 90% of the grading workflow and cut evaluation time by 75%.
+
+### Tongue Analysis AI
+
+A clinical computer-vision system for traditional-medicine diagnostics, analysing coating, colour and cracks across 2,524 images to replace subjective scoring. Built with PyTorch, OpenCV, scikit-image and Flask. Reached 94.2% colour accuracy and 91.7% coating accuracy.
+
+### Company Brain
+
+https://github.com/okaditya84/Company-Brain. A multi-tenant RAG platform with hybrid semantic search and citation-grounded answers to reduce hallucination, served through asynchronous microservices. Built with FastAPI, PostgreSQL with pgvector, Redis and Docker, gated by a CI pipeline running lint, type-checks, migrations and tests.
+
+### Neural ODE for Heart Rate
+
+https://github.com/okaditya84/Neural-ODE-for-Heart-Rate. A continuous-time ordinary-differential-equation model reconstructing and forecasting irregularly sampled ICU heart-rate trajectories from MIMIC-III with masked-point imputation. Built with PyTorch and torchdiffeq. Reached MSE of 0.443 and RMSE of approximately 7.01 beats per minute.
+
+### Scrollwise
+
+A full-stack digital-wellbeing app and Chrome extension that turns scroll, click and focus events into real-world analogies with AI insights. Built with Next.js, Express, TypeScript, MongoDB and Groq, with under 500 millisecond insight latency.
+
+### BOB Agent
+
+https://github.com/okaditya84/BOB-Agent. A safety-first banking assistant with output guardrails and a Model Context Protocol server across four microservices (identity, KYC, assistant and gateway), orchestrated with Docker Compose and verified by an 88-case pytest suite.
+
+---
+
+## Technical skills
+
+Languages: Python, Go, C++, SQL, JavaScript, TypeScript, Bash.
+
+Machine learning and AI: PyTorch, TensorFlow, scikit-learn, QLoRA and LoRA fine-tuning, agentic RAG, LangChain, LangGraph, Transformers, OpenCV, vLLM, XGBoost.
+
+Agents and LLM infrastructure: OpenAI Agents SDK, Google Agent Development Kit (ADK), AWS Bedrock Agents, Mastra AI, Vercel AI SDK, LangFuse, Model Context Protocol (MCP).
+
+Cloud and data: Google Cloud Platform (Vertex AI, BigQuery, Dataflow), Amazon Web Services (EC2, S3, EMR, SageMaker, Bedrock), Microsoft Azure, Docker, ETL and ELT, CI/CD.
+
+Backend and APIs: FastAPI, Flask, Django, Node.js, Express, Next.js, Pydantic, REST APIs, microservices, WebSockets.
+
+Databases and vector stores: PostgreSQL, MongoDB, MySQL, Redis, pgvector, FAISS, ChromaDB, Qdrant.
+
+Statistics and evaluation: hypothesis testing, A/B testing, bootstrap confidence intervals, drift detection, time-series forecasting, clustering, regression, classification.
+
+---
+
+## Open-source contributions
+
+15+ merged pull requests to production codebases:
+
+- Mem0 (https://github.com/mem0ai/mem0): fixed the Weaviate vector store writing OutputData model fields as properties on update, which corrupted stored memories.
+- OpenLIT (https://github.com/openlit/openlit): contributed over 1,000 lines of OpenTelemetry-based Groq audio instrumentation with a 164-case test suite, plus reasoning-content capture for Groq and Ollama chat.
+- OpenAI Agents SDK (https://github.com/openai/openai-agents-python): fixed metadata leaks in AdvancedSQLiteSession clear_session and pop_item.
+- Outlines by dottxt-ai (https://github.com/dottxt-ai/outlines): authored documentation for the LM Studio model backend.
+- Hermes Agent by Nous Research (https://github.com/NousResearch/hermes-agent): fixed the SQLite session store leaking on wake-gate skip paths in the cron loop.
+- Additional merged contributions through Hacktoberfest 2024 and GSSoC 2023 and 2024.
+
+---
+
+## Achievements and recognition
+
+- Codeforces Master: maximum rating 2131, top 2% of rated competitive programmers worldwide, 731 problems solved.
+- LeetCode Knight: rating 2071, top 1.75%, All India Rank 61 in Weekly Contest 462 among 35,000+ participants, 190+ problems solved.
+- CodeChef: rank 936 in Starters 113D, top 5% among 19,000 participants.
+- GATE Computer Science 2026: 95.61 percentile.
+- Claude Impact Lab 2026: Top 7 in India.
+- Google Solution Challenge 2025: Top 105 of 4,000+ international teams.
+- ByteVerse 2025 at IIT Patna: Top 10 finish.
+- JPMorgan Code for Good 2024: Finalist. Smart India Hackathon 2023: Finalist.
+- Meta PyTorch OpenEnv Hackathon: Top 100.
+- Speaker, IEEE Computational Intelligence Society Workshop, IIT Indore.
+- Chairperson and Advisor, ACM Student Chapter, PDEU, 2023 to 2025. Mentored 50+ developers.
+- Tech Lead, GeeksforGeeks PDEU Chapter, 2021 to 2024.
+
+---
+
+## Certifications
+
+- Anthropic: Claude 101, Claude with the Anthropic API, Introduction to Model Context Protocol, Introduction to Agent Skills, AI Fluency: Framework and Foundations.
+- NVIDIA Deep Learning Institute: Fundamentals of Deep Learning.
+- IEEE Computational Intelligence Society Summer School, IIT Indore (presented research).
+- ACM Summer School: IIT Gandhinagar, NIT Goa, IIT Patna.
+- Data Analysis with Python.
+- Machine Learning with Python, freeCodeCamp.
+
+---
+
+## Writing
+
+Aditya writes technical explainers on Medium at https://medium.com/@adityajethani, covering topics including logits and reasoning in language models, the Meta LLM Compiler, AlignGPT and multimodal intelligence, activation functions, and neural architecture search. He also publishes video explainers on YouTube.
+
+---
+
+## Frequently asked questions
+
+**What does Aditya Jethani do?**
+He is a Machine Learning Engineer at Logicwind, where he builds production AI systems: multi-agent platforms, retrieval-augmented generation over large document collections, and the evaluation infrastructure that keeps them reliable.
+
+**What is Aditya Jethani's patent about?**
+He is the first inventor on Indian Patent Application No. 202521086225, "AI-Powered Multimodal Healthcare System for Elderly Care", published in July 2026. Its core novelty is a unified multimodal vector store that fuses text, voice and image into a single embedding space using an attention-based feature-alignment layer.
+
+**How strong is Aditya Jethani at competitive programming?**
+He is a Codeforces Master with a maximum rating of 2131, placing him in the top 2% of rated competitive programmers worldwide, with 731 problems solved. He is also a LeetCode Knight, rated 2071 in the top 1.75%.
+
+**What technologies does Aditya Jethani specialise in?**
+Agentic AI frameworks (OpenAI Agents SDK, Google ADK, AWS Bedrock Agents, LangGraph, MCP), retrieval-augmented generation, LLM fine-tuning with LoRA and QLoRA, Python and Go backend engineering, and cloud deployment on AWS, GCP and Azure.
+
+**Where is Aditya Jethani based?**
+Ahmedabad, Gujarat, India.
+
+**How can I contact Aditya Jethani?**
+By email at adityajethani11@gmail.com, or on LinkedIn at https://www.linkedin.com/in/adityajethani/.

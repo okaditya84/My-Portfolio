@@ -1,20 +1,67 @@
+# robots.txt for adityajethani.vercel.app
+# All crawlers, including AI answer and generative engines, are welcome.
+
 User-agent: *
 Allow: /
 
-# Allow AI answer/generative engines to read and cite this site
+# --- Search engines ---
+User-agent: Googlebot
+Allow: /
+User-agent: Bingbot
+Allow: /
+User-agent: DuckDuckBot
+Allow: /
+User-agent: Slurp
+Allow: /
+User-agent: Yandex
+Allow: /
+
+# --- AI answer engines and assistants (allowed to read and cite) ---
 User-agent: GPTBot
 Allow: /
 User-agent: OAI-SearchBot
 Allow: /
 User-agent: ChatGPT-User
 Allow: /
-User-agent: PerplexityBot
-Allow: /
 User-agent: ClaudeBot
 Allow: /
 User-agent: Claude-Web
 Allow: /
+User-agent: Claude-SearchBot
+Allow: /
+User-agent: anthropic-ai
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Perplexity-User
+Allow: /
 User-agent: Google-Extended
 Allow: /
+User-agent: Applebot
+Allow: /
+User-agent: Applebot-Extended
+Allow: /
+User-agent: Amazonbot
+Allow: /
+User-agent: meta-externalagent
+Allow: /
+User-agent: FacebookBot
+Allow: /
+User-agent: cohere-ai
+Allow: /
+User-agent: YouBot
+Allow: /
+User-agent: Bytespider
+Allow: /
+User-agent: Diffbot
+Allow: /
+User-agent: omgili
+Allow: /
+User-agent: DuckAssistBot
+Allow: /
+
+# --- Structured content for language models ---
+# Curated summary: https://adityajethani.vercel.app/llms.txt
+# Full site text:  https://adityajethani.vercel.app/llms-full.txt
 
 Sitemap: https://adityajethani.vercel.app/sitemap.xml
