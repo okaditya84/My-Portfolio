@@ -295,10 +295,30 @@
       <div class="section-head reveal">
         <span class="kicker">Experience</span>
         <h2>Where I have shipped.</h2>
-        <p>Three roles across three companies, each ending in something deployed or measured.</p>
+        <p>Four roles across four organisations, each ending in something deployed or measured.</p>
       </div>
 
       <div class="timeline">
+        <!-- Research Commons -->
+        <article class="xp reveal">
+          <div class="xp-meta">
+            <div class="xp-when">Mar 2026 — Present</div>
+            <div class="xp-where">Remote</div>
+            <div class="xp-badge">Part-time</div>
+          </div>
+          <div>
+            <h3 class="xp-role">Research Fellow · <span class="xp-company">Research Commons</span></h3>
+            <ul>
+              <li>Designed a <b>fidelity benchmark over 32,073 PDFs</b> across four corpora (SEC annual reports, TAT-DQA, READoc, DocLayNet), including a <b>1,384 SEC filings corpus</b>; paper <b>accepted at the EMNLP 2026 DocInsights Workshop</b>.</li>
+              <li>Built a <b>deterministic PDF parser</b> with no OCR or ML that reached <b>0.0588 CER</b> and <b>0.973 numeric F1</b> on SEC filings, winning <b>31 of 50 metrics</b> against six baselines (PyMuPDF 20) and <b>33 of 37</b> on TAT-DQA.</li>
+              <li>Benchmarked <b>IBM's Docling neural parser</b> against the deterministic one across <b>13 corpora and 177,571 tables</b> on TEDS, TEDS-S and GriTS, isolating each learned stage (RT-DETRv2 layout, the 52.6M-parameter TableFormer, OCR) in a single role; won the two largest corpora, <b>97,327 SEC tables</b> and <b>14,854 SciTSR tables</b>, at <b>101 ms per page against 1,046</b>, and derived a fallback rule that beats Docling alone on every corpus tested by up to <b>0.0296 TEDS</b>.</li>
+            </ul>
+            <div class="xp-tags">
+              <span class="tag">Python</span><span class="tag">PDF Parsing</span><span class="tag">Benchmarking</span><span class="tag">Docling</span><span class="tag">TEDS / GriTS</span><span class="tag">Significance Testing</span>
+            </div>
+          </div>
+        </article>
+
         <!-- Logicwind -->
         <article class="xp reveal">
           <div class="xp-meta">
