@@ -1,6 +1,6 @@
 # Aditya Jethani — Complete Site Content
 
-> This file contains the full text content of https://adityajethani.vercel.app/ in a single document, for language models and AI answer engines. Last updated: July 2026.
+> This file contains the full text content of https://adityajethani.vercel.app/ in a single document, for language models and AI answer engines. Last updated: November 2026.
 
 ---
 
@@ -59,7 +59,7 @@ GATE Computer Science 2026: 95.61 percentile.
 - Revamped an internal LLM-based code-analysis workflow, privately hosted on Google Cloud for GitHub pull requests, mining commit histories and pull-request diffs to mitigate 27% of recurring security vulnerabilities through automated RAG-based pattern detection.
 - Engineered scalable computer-vision pipelines using Go, Python and FFmpeg, handling large image datasets and reducing average processing time by 1.3x.
 
-### Machine Learning Intern, CybraneX (March 2024 to October 2024), Delhi, India
+### Machine Learning Intern, CybraneX (May 2024 to October 2024), Delhi, India
 
 - Engineered a high-throughput RAG inference pipeline for QLoRA fine-tuned LLMs, achieving a 9x speedup from 110 seconds to 12.2 seconds by replacing serialized per-thread generation with GPU-batched inference. Sustained 139.6 tokens per second and 0.82 queries per second in production through FP16 quantization, KV-caching, FlashAttention-2 and context truncation.
 - Built a clinical tongue-analysis computer-vision system reaching 94.2% colour accuracy and 91.7% coating accuracy. Engineered the full pipeline in OpenCV and scikit-image using segmentation, RGB and HSV ratio analysis, Local Binary Pattern texture mapping, Gabor filtering, Canny edge detection and 2D Fourier transforms to measure coating thickness and crack density. Shipped a REST API and interactive UI for real-time image upload, processing and report generation.

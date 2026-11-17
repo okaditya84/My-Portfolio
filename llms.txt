@@ -25,7 +25,7 @@
 
 - Machine Learning Engineer, Logicwind, June 2025 to present. Built 7 production AI agents answering questions over live enterprise systems (ERP, Tally, CRM, HR), cutting client delivery time 70%. Built a governed multi-tenant AI platform with per-user MCP OAuth isolation that caught a cross-user data leak before production. Architected an agentic RAG platform over 360,000 multilingual documents at 4.3x throughput, and an NL-to-SQL interface returning governed queries and dashboards in under 2 seconds.
 - Software Engineering Intern, Yanolja, January 2025 to June 2025. Built an image-to-image translation system for multilingual e-commerce that lifted accuracy 50% over the CycleGAN baseline. Built an automated code-review service on Google Cloud that flagged 27% of recurring security defects before deployment. Engineered Go, Python and FFmpeg pipelines that cut average processing time 1.3x.
-- Machine Learning Intern, CybraneX, March 2024 to October 2024. Engineered a RAG inference pipeline with a 9x speedup, from 110 seconds to 12.2 seconds, sustaining 139.6 tokens per second. Built a clinical tongue-analysis computer-vision system reaching 94.2% colour and 91.7% coating accuracy. Built an AI telemarketing system handling 50,000+ daily calls at 89% lead-identification accuracy.
+- Machine Learning Intern, CybraneX, May 2024 to October 2024. Engineered a RAG inference pipeline with a 9x speedup, from 110 seconds to 12.2 seconds, sustaining 139.6 tokens per second. Built a clinical tongue-analysis computer-vision system reaching 94.2% colour and 91.7% coating accuracy. Built an AI telemarketing system handling 50,000+ daily calls at 89% lead-identification accuracy.
 
 ## Research and publications
 
