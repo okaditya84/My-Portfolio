@@ -1,0 +1,63 @@
+{
+  "name": "app.vercel.adityajethani/portfolio",
+  "title": "Aditya Jethani Portfolio",
+  "description": "Read-only MCP server with Aditya Jethani's profile: experience, research, projects, skills and contact details.",
+  "version": "1.0.0",
+  "websiteUrl": "https://adityajethani.vercel.app/",
+  "repository": {
+    "url": "https://github.com/okaditya84/My-Portfolio",
+    "source": "github",
+    "subfolder": "api"
+  },
+  "serverInfo": {
+    "name": "aditya-jethani-portfolio",
+    "title": "Aditya Jethani Portfolio",
+    "version": "1.0.0"
+  },
+  "protocolVersion": "2025-06-18",
+  "transport": {
+    "type": "streamable-http",
+    "endpoint": "https://adityajethani.vercel.app/api/mcp"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://adityajethani.vercel.app/api/mcp",
+      "supportedProtocolVersions": [
+        "2025-06-18",
+        "2025-03-26",
+        "2024-11-05"
+      ],
+      "authentication": {
+        "required": false
+      }
+    }
+  ],
+  "capabilities": {
+    "tools": {
+      "listChanged": false
+    }
+  },
+  "authentication": {
+    "required": false,
+    "schemes": []
+  },
+  "tools": [
+    {
+      "name": "get_profile_summary",
+      "description": "Short factual summary of Aditya Jethani, Machine Learning Engineer."
+    },
+    {
+      "name": "get_profile_section",
+      "description": "Return one section of Aditya Jethani's full profile in markdown."
+    },
+    {
+      "name": "search_profile",
+      "description": "Find profile paragraphs mentioning a keyword."
+    },
+    {
+      "name": "get_contact",
+      "description": "How to contact Aditya Jethani for hiring or collaboration."
+    }
+  ]
+}

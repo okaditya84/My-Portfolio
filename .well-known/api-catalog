@@ -3,14 +3,45 @@
     {
       "anchor": "https://adityajethani.vercel.app/",
       "service-doc": [
-        { "href": "https://adityajethani.vercel.app/llms.txt", "type": "text/plain", "title": "Profile summary for language models" },
-        { "href": "https://adityajethani.vercel.app/index.md", "type": "text/markdown", "title": "Full profile in markdown" }
+        {
+          "href": "https://adityajethani.vercel.app/llms.txt",
+          "type": "text/plain",
+          "title": "Profile summary for language models"
+        },
+        {
+          "href": "https://adityajethani.vercel.app/index.md",
+          "type": "text/markdown",
+          "title": "Full profile in markdown"
+        }
       ],
       "service-desc": [
-        { "href": "https://adityajethani.vercel.app/.well-known/ai-catalog.json", "type": "application/json", "title": "AI catalog of agent-readable resources" }
+        {
+          "href": "https://adityajethani.vercel.app/.well-known/ai-catalog.json",
+          "type": "application/json",
+          "title": "AI catalog of agent-readable resources"
+        }
       ],
       "describedby": [
-        { "href": "https://adityajethani.vercel.app/sitemap.xml", "type": "application/xml" }
+        {
+          "href": "https://adityajethani.vercel.app/sitemap.xml",
+          "type": "application/xml"
+        }
+      ]
+    },
+    {
+      "anchor": "https://adityajethani.vercel.app/api/mcp",
+      "service-desc": [
+        {
+          "href": "https://adityajethani.vercel.app/.well-known/mcp/server-card.json",
+          "type": "application/json",
+          "title": "MCP server card"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://adityajethani.vercel.app/llms.txt",
+          "type": "text/plain"
+        }
       ]
     }
   ]

@@ -8,12 +8,27 @@
   },
   "entries": [
     {
+      "identifier": "urn:air:adityajethani.vercel.app:portfolio:mcp",
+      "displayName": "Aditya Jethani Portfolio MCP server",
+      "type": "application/mcp-server-card+json",
+      "url": "https://adityajethani.vercel.app/.well-known/mcp/server-card.json",
+      "representativeQueries": [
+        "MCP server about Aditya Jethani",
+        "Ask an agent about Aditya Jethani's experience",
+        "Aditya Jethani projects and skills via MCP"
+      ]
+    },
+    {
       "identifier": "urn:air:adityajethani.vercel.app:profile:summary",
       "displayName": "Aditya Jethani profile summary",
       "type": "text/plain",
       "description": "Short factual summary of Aditya Jethani, Machine Learning Engineer: experience, research, projects and contact.",
       "url": "https://adityajethani.vercel.app/llms.txt",
-      "representativeQueries": ["Who is Aditya Jethani?", "Machine learning engineer with agentic AI and RAG experience in India", "Aditya Jethani patent multimodal healthcare AI"]
+      "representativeQueries": [
+        "Who is Aditya Jethani?",
+        "Machine learning engineer with agentic AI and RAG experience in India",
+        "Aditya Jethani patent multimodal healthcare AI"
+      ]
     },
     {
       "identifier": "urn:air:adityajethani.vercel.app:profile:full",
@@ -21,7 +36,11 @@
       "type": "text/markdown",
       "description": "Complete portfolio content in markdown: experience, publications, projects, skills, open-source work and FAQ.",
       "url": "https://adityajethani.vercel.app/index.md",
-      "representativeQueries": ["What has Aditya Jethani built at Logicwind?", "Aditya Jethani open source contributions", "Aditya Jethani skills and tech stack"]
+      "representativeQueries": [
+        "What has Aditya Jethani built at Logicwind?",
+        "Aditya Jethani open source contributions",
+        "Aditya Jethani skills and tech stack"
+      ]
     },
     {
       "identifier": "urn:air:adityajethani.vercel.app:projects:list",
@@ -29,14 +48,21 @@
       "type": "text/markdown",
       "description": "Projects by Aditya Jethani, including Setu (2nd place, Claude Impact Lab 2026), Company Brain and BOB Agent.",
       "url": "https://adityajethani.vercel.app/projects.md",
-      "representativeQueries": ["Aditya Jethani projects", "Setu Kumbh Mela lost and found app", "agentic RAG portfolio projects India"]
+      "representativeQueries": [
+        "Aditya Jethani projects",
+        "Setu Kumbh Mela lost and found app",
+        "agentic RAG portfolio projects India"
+      ]
     },
     {
       "identifier": "urn:air:adityajethani.vercel.app:aditya-jethani-profile:skill",
       "displayName": "Aditya Jethani profile skill",
       "type": "application/agent-skills+json",
       "url": "https://adityajethani.vercel.app/.well-known/agent-skills/index.json",
-      "representativeQueries": ["Answer questions about Aditya Jethani", "Is Aditya Jethani a fit for an AI engineer role?"]
+      "representativeQueries": [
+        "Answer questions about Aditya Jethani",
+        "Is Aditya Jethani a fit for an AI engineer role?"
+      ]
     }
   ]
 }
