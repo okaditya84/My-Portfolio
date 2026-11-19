@@ -94,38 +94,6 @@
       ]
     },
     {
-      "source": "/",
-      "has": [
-        {
-          "type": "header",
-          "key": "accept",
-          "value": "(.*)text/markdown(.*)"
-        }
-      ],
-      "headers": [
-        {
-          "key": "Content-Type",
-          "value": "text/markdown; charset=utf-8"
-        }
-      ]
-    },
-    {
-      "source": "/projects",
-      "has": [
-        {
-          "type": "header",
-          "key": "accept",
-          "value": "(.*)text/markdown(.*)"
-        }
-      ],
-      "headers": [
-        {
-          "key": "Content-Type",
-          "value": "text/markdown; charset=utf-8"
-        }
-      ]
-    },
-    {
       "source": "/(index|projects).md",
       "headers": [
         {
@@ -226,30 +194,6 @@
           "value": "strict-origin-when-cross-origin"
         }
       ]
-    }
-  ],
-  "rewrites": [
-    {
-      "source": "/",
-      "has": [
-        {
-          "type": "header",
-          "key": "accept",
-          "value": "(.*)text/markdown(.*)"
-        }
-      ],
-      "destination": "/index.md"
-    },
-    {
-      "source": "/projects",
-      "has": [
-        {
-          "type": "header",
-          "key": "accept",
-          "value": "(.*)text/markdown(.*)"
-        }
-      ],
-      "destination": "/projects.md"
     }
   ]
 }
