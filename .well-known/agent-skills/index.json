@@ -1,0 +1,12 @@
+{
+  "$schema": "https://schemas.agentskills.io/discovery/0.2.0/schema.json",
+  "skills": [
+    {
+      "name": "aditya-jethani-profile",
+      "type": "skill-md",
+      "description": "Answer questions about Aditya Jethani, a Machine Learning Engineer in India, using his published profile, experience, projects, research and contact details.",
+      "url": "/.well-known/agent-skills/aditya-jethani-profile/SKILL.md",
+      "digest": "sha256:b08c63c54a0253789d651c2a248c46de00f21ffdc54d5678ccb1cf79ab49dfc3"
+    }
+  ]
+}

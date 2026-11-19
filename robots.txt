@@ -1,7 +1,9 @@
 # robots.txt for adityajethani.vercel.app
 # All crawlers, including AI answer and generative engines, are welcome.
 
+# Content Signals (https://contentsignals.org): search, AI answers and AI training are all permitted.
 User-agent: *
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
 Allow: /
 
 # --- Search engines ---
@@ -63,5 +65,7 @@ Allow: /
 # --- Structured content for language models ---
 # Curated summary: https://adityajethani.vercel.app/llms.txt
 # Full site text:  https://adityajethani.vercel.app/llms-full.txt
+# Markdown pages:  https://adityajethani.vercel.app/index.md and /projects.md
+# Agent discovery: https://adityajethani.vercel.app/.well-known/ai-catalog.json
 
 Sitemap: https://adityajethani.vercel.app/sitemap.xml
